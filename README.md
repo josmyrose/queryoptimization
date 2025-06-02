@@ -30,6 +30,14 @@ To compare:
 - Pandas remains intuitive but less memory-efficient.
 - DuckDB offers SQL syntax directly on Parquet files without loading everything into memory.
 
+## ⚡ Summary of Benchmark
+
+| Tool     | Execution Time |
+|----------|----------------|
+| Pandas   | 0.1492 seconds |
+| DuckDB   | 0.4639 seconds |
+
+> 📝 Note: While DuckDB is known for high performance on large-scale SQL queries, this benchmark shows that pandas can be faster for certain operations, especially when data fits comfortably in memory.
 
 ## 📊 Benchmark Results: pandas vs DuckDB
 
